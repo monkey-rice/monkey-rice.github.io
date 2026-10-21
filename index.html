@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시작 페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="top-left">
+            <a href="https://www.sdu.ac.kr" target="_blank" class="sdu-link">
+                <span class="sdu-logo">SDU</span> 서울디지털대학교
+            </a>
+        </div>
+        <div class="top-right">
+            <div class="weather-box">서울: 27.3°C 대체로 맑음 ☀️</div>
+            <div class="weather-box">제주: 30.3°C 흐림 ☁️</div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <form action="https://www.google.com/search" method="GET" class="search-form">
+            <div class="search-bar">
+                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="search-icon"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                <input type="text" name="q" placeholder="Google 검색" autocomplete="off">
+            </div>
+            <div class="search-buttons">
+                <button type="submit">Google 검색</button>
+                <button type="button">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>"하루에 3시간을 걸으면 7년 후에 지구를 한바퀴 돌 수 있다." - 사무엘존슨</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
